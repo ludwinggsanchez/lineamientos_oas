@@ -147,20 +147,20 @@ La arquitectura definida para los sistemas en desarrollo en la OAS es módelo po
 - [Historia de usuario](/metodologias/formatos/Plantilla_Historias_Usuario-OAS_v2.xlsx)
 - [Historia de usuario en Drive](https://docs.google.com/spreadsheets/d/1eAAnzjovKnLKAkk0tLFSCTGDnS_8K5pV0Fs-2Qmvrg0/edit#gid=713905461)
 
-## 11. Instalación de Git
+## 11. Instalacion de Git:
 
-### Windows
+### Para Windows
 
 1. Descarga Git desde [https://git-scm.com/download/win](https://git-scm.com/download/win).
 2. Ejecuta el instalador descargado y sigue las instrucciones.
 
-### macOS
+### Para macOS
 
 1. Instala Git usando Homebrew:
    ```bash
    brew install git
 
-## Linux
+## Para Linux
 
 Usa el gestor de paquetes de tu distribución. Por ejemplo, en Ubuntu:
 sudo apt-get update
