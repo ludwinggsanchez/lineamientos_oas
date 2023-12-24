@@ -33,3 +33,9 @@ go version
 echo $GOPATH
 cd $GOPATH
 ```
+
+## Manjaro
+
+```zsh
+sudo pacman -S go
+```
