@@ -36,6 +36,27 @@ cd $GOPATH
 
 ## Manjaro
 
+1. instalar go
 ```zsh
 sudo pacman -S go
+```
+
+2. Configurar variables de entorno
+
+```zsh
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+```
+
+3. Crear directorio de trabajo
+```bash
+mkdir -p  ~/go
+```
+
+4. Comprobar instalacion
+```bash
+go version
+echo $GOPATH
+cd $GOPATH
 ```
