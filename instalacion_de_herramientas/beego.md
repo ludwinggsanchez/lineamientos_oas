@@ -10,11 +10,22 @@
 ### Instalación Beego y Bee
 
 ```sh
-mkdir -p $GOPATH/src/github.com/beego
-cd $GOPATH/src/github.com/beego
+mkdir %GOPATH%\go\src\github.com\beego
+cd %GOPATH%/src/github.com/beego
 git clone --depth=1 --branch=v1.12.3 https://github.com/beego/bee.git
 git clone --depth=1 --branch=v1.12.3 https://github.com/beego/beego.git
 cd bee && go install
+```
+
+Al ejecutar el comando de instalación proporciona un error debido a que falta una dependencia. Ese error se soluciona con el siguiente comando:
+
+```sh
+go get github.com/mattn/go-colorable
+```
+
+Finalmente se continúa con los demás comandos:
+
+```sh
 cd ../beego && go install
 ```
 
@@ -48,16 +59,17 @@ ______
 ## Instalación en Ambiente Dockerizado
 
 ### Requerimientos
-- [`docker`](https://docs.docker.com/engine/install/)   
+
+- [`docker`](https://docs.docker.com/engine/install/)
 - [`docker-compose`](https://docs.docker.com/compose/install/)
 
-### Implementar [imagen Docker Hub](https://hub.docker.com/r/botom/beego):   
+### Implementar [imagen Docker Hub](https://hub.docker.com/r/botom/beego):
 
 La imagen puede ser usada para los diferentes desarrollos en go y para sustituir aquellos desarrollos existentes que ya tienen docker-compose, facilitando el tiempo de compilacion por parte del orquestador.
 
 ![botom/beego](img/docker_botom_beego.png)
 
-### Uso de recetas:   
+### Uso de recetas:
 
 #### Dockerfile
 
@@ -69,7 +81,7 @@ WORKDIR /go/src
 #### docker-compose.yml
 
 ```yml
-version: '3.4'
+version: "3.4"
 
 services:
   api:
