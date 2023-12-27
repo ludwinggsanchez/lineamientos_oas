@@ -125,14 +125,15 @@ sudo systemctl restart postgresql-10.service
 
 ## En Distribuciones Manjaro
 
-- Instalar Postgresql 10 en Manjaro
+- Instale Postgresql 10 en Manjaro
+
 ```bash
 yay -S postgresql-10
 ```
 
 ## Docker
 
-- Ejecuta el siguiente comando en un directorio donde quieras persistir la informacion de postgresql, por ejemplo: "~/postgresql10"
+- Ejecute el siguiente comando en un directorio donde se quiera persistir la informacion de postgresql, por ejemplo: "~/postgresql10"
 
 ```bash
 docker run --name postgresql10 \
