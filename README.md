@@ -1,11 +1,12 @@
-# Lineamientos OAS :eyeglasses:
+# Lineamientos OATI :eyeglasses:
 
-Este repositorio es un conglomerado de buenas prácticas, lineamientos, configuraciones a realizar en el entorno de desarrollo de las nuevas tecnologias de la Oficina Asesora de Sistemas (OAS)
+Este repositorio es un conglomerado de buenas prácticas, lineamientos, configuraciones a realizar en el entorno de desarrollo de las nuevas tecnologias de la Oficina Asesora de Tecnologías e Información (OATI)
 
 ***
 ## 1. Instalación de Herramientas :wrench:
 
 > ### En PC Local :computer:
+- [Instalación Git](/instalacion_de_herramientas/git.md)
 - [Instalación Golang](/instalacion_de_herramientas/golang.md)
 - [Instalación Beego y Bee](/instalacion_de_herramientas/beego.md)
 - [Instalación Postgres](/instalacion_de_herramientas/postgres.md)
