@@ -60,3 +60,9 @@ go version
 echo $GOPATH
 cd $GOPATH
 ```
+
+## Windows
+
+1. Descargar el instalador de windows [CLICK AQUI](https://go.dev/dl/)
+2. Durante el proceso de instalación, se ofrece la opción de incorporar Go al PATH del sistema y configurar las variables de entorno de manera automática. Es recomendable seleccionar estas opciones para garantizar que Go esté accesible desde cualquier ubicación en el sistema.
+3. Las variables de entorno están configuradas automáticamente para el usuario actual. Para hacer esta configuración genérica y aplicable a todos los usuarios, es necesario configurar las variables de entorno a nivel de sistema y actualizar el PATH correspondientemente.
