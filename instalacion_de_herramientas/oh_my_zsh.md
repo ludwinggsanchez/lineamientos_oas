@@ -48,7 +48,7 @@ Se usa pacman como gestor de paquetes
 sudo pacman -S  zsh
 ```
 
-2. Sigue desde el paso #2 de los sistemas basados en debian.
+2. Siga desde el paso #2 de los sistemas basados en debian.
 
 
 ## Fuentes
