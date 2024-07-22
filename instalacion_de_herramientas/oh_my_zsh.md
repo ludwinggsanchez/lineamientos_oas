@@ -5,6 +5,8 @@ El Oh My ZSH es un framework para gestionar la configuraciones de ZSH. Permite e
 
 ## Instalación
 
+### Sistemas basados en debian
+
 1. Instalamos ZSH y git-core
 ```bash
 sudo apt-get install -y  zsh git-core
@@ -37,6 +39,17 @@ nano ~/.zshrc
 ```bash
 ZSH_THEME="agnoster"
 ```
+
+### Sistemas basados en arch
+Se usa pacman como gestor de paquetes
+
+1. Instalamos ZSH
+```bash
+sudo pacman -S  zsh
+```
+
+2. Siga desde el paso #2 de los sistemas basados en debian.
+
 
 ## Fuentes
 [ohmyz.sh](https://ohmyz.sh/)  
